@@ -110,12 +110,12 @@ switch (mes) {
 
   console.log("\n ----------Fin Ejercicio #3 ---------- \n");
 
-  /*
-  Ejercicio 4: Colores del semáforo
+ 
+  console.log("----------Ejercicio #4 (Colores del semáforo )---------- \n");
+   /*
   Escribe un programa que reciba un color (rojo, amarillo, verde) 
   y devuelva la acción correspondiente.
   Si recibe otra entrada enviar mensaje "Color inválido"*/
-  console.log("----------Ejercicio #4 (Colores del semáforo )---------- \n");
 
   let color = 'verde';
 switch (color) {
@@ -133,8 +133,10 @@ switch (color) {
 }
 console.log("\n ----------Fin Ejercicio #4 ---------- \n");
 
+
+
+console.log("----------Ejercicio #5 (Tipo de Triángulos )---------- \n");
 /*
-Ejercicio 5: Tipo de Triángulos
 Escribe un programa que reciba el número de lados iguales de un triángulo (0, 2, 3) y devuelva el tipo de triángulo.
 Si recibe otra entrada enviar mensaje "Número inválido"
  0 = Escaleno
@@ -143,8 +145,6 @@ Si recibe otra entrada enviar mensaje "Número inválido"
  default = Número Invalido
 
 */
-
-console.log("----------Ejercicio #5 (Tipo de Triángulos )---------- \n");
 
 let numLadosI = 2;
 switch (numLadosI) {
@@ -167,7 +167,6 @@ console.log("\n ----------Fin Ejercicio #5 ---------- \n");
 
 console.log("----------Ejercicio #6 (Estaciones del año )---------- \n");
   /*
-Ejercicio 6: Estaciones del año
 Escribe un programa que reciba un número del 1 al 4 y devuelva la estación del año correspondiente.
 Si recibe otra entrada enviar mensaje "Número inválido"
 */
@@ -194,7 +193,7 @@ console.log("\n ----------Fin Ejercicio #6 ---------- \n");
 
 console.log("----------Ejercicio #7 (Tipos de vehículos )---------- \n");
 /*
-Ejercicio 7: Tipos de vehículos
+
 Escribe un programa que reciba un tipo de vehículo (coche, moto, bicicleta) y devuelva el número de ruedas.
 Si recibe otra entrada enviar mensaje "Vehículo inválido"
 
@@ -220,3 +219,31 @@ switch (tipoVehiculo) {
 }
 
 console.log("\n ----------Fin Ejercicio #7 ---------- \n");
+
+console.log("----------Ejercicio #8 (Niveles de usuario )---------- \n");
+/*
+Escribe un programa que reciba un nivel de usuario (admin, editor, visitante) y devuelva los permisos correspondientes.
+Si recibe otra entrada enviar mensaje "Nivel de usuario inválido"
+admin = Todos los permisos
+editor = Permisos de edición
+visitante = Permisos de lectura
+default =  Nivel de usuario inválido
+
+*/
+
+let tipoUsuario = 'editor';
+switch (tipoUsuario) {
+    case 'admin':
+        console.log("el usuario "+tipoUsuario+" Tiene Todos los permisos");
+        break;
+    case 'editor':
+        console.log("el usuario "+tipoUsuario+" Tiene Permisos de edición");
+        break;
+    case 'visitante':
+        console.log("el usuario "+tipoUsuario+" Tiene Permisos de lectura");
+        break;
+    default:
+        console.log("Nivel de usuario inválido");
+}
+
+console.log("\n ----------Fin Ejercicio #8 ---------- \n");
