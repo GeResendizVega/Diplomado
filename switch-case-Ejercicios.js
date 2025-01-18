@@ -110,6 +110,28 @@ switch (mes) {
 
   console.log("\n ----------Fin Ejercicio #3 ---------- \n");
 
+  /*
+  Ejercicio 4: Colores del semáforo
+  Escribe un programa que reciba un color (rojo, amarillo, verde) 
+  y devuelva la acción correspondiente.
+  Si recibe otra entrada enviar mensaje "Color inválido"*/
+  console.log("----------Ejercicio #4 (Colores del semáforo )---------- \n");
+
+  let color = 'verde';
+switch (color) {
+    case 'rojo':
+        console.log("El color "+color +"indica Alto");
+        break;
+    case 'amarillo':
+        console.log("El color "+color +"indica Precaución");
+        break;
+    case 'verde':
+        console.log("El color "+color +"indica Siga");
+        break;
+    default:
+        console.log("Color inválido");
+}
+console.log("\n ----------Fin Ejercicio #4 ---------- \n");
 
 
   
