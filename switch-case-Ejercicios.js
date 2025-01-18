@@ -164,12 +164,12 @@ switch (numLadosI) {
 
 console.log("\n ----------Fin Ejercicio #5 ---------- \n");
 
+
 console.log("----------Ejercicio #6 (Estaciones del año )---------- \n");
   /*
 Ejercicio 6: Estaciones del año
 Escribe un programa que reciba un número del 1 al 4 y devuelva la estación del año correspondiente.
 Si recibe otra entrada enviar mensaje "Número inválido"
-
 */
 
 let estacion = 3;
@@ -191,3 +191,32 @@ switch (estacion) {
 }
 
 console.log("\n ----------Fin Ejercicio #6 ---------- \n");
+
+console.log("----------Ejercicio #7 (Tipos de vehículos )---------- \n");
+/*
+Ejercicio 7: Tipos de vehículos
+Escribe un programa que reciba un tipo de vehículo (coche, moto, bicicleta) y devuelva el número de ruedas.
+Si recibe otra entrada enviar mensaje "Vehículo inválido"
+
+coche = 4 ruedas
+moto = 2 ruedas 
+bicicleta = 2 ruedas
+default = Veiculo invalido
+*/
+
+let tipoVehiculo = 'moto';
+switch (tipoVehiculo) {
+    case 'coche':
+        console.log("el "+tipoVehiculo+" tiene 4 ruedas");
+        break;
+    case 'moto':
+        console.log("la "+tipoVehiculo+"tiene 2 ruedas");
+        break;
+    case 'bicicleta':
+        console.log("la "+tipoVehiculo+"tiene2 ruedas");
+        break;
+    default:
+        console.log("Vehículo inválido");
+}
+
+console.log("\n ----------Fin Ejercicio #7 ---------- \n");
