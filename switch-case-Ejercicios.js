@@ -164,5 +164,30 @@ switch (numLadosI) {
 
 console.log("\n ----------Fin Ejercicio #5 ---------- \n");
 
+console.log("----------Ejercicio #6 (Estaciones del año )---------- \n");
+  /*
+Ejercicio 6: Estaciones del año
+Escribe un programa que reciba un número del 1 al 4 y devuelva la estación del año correspondiente.
+Si recibe otra entrada enviar mensaje "Número inválido"
 
-  
+*/
+
+let estacion = 3;
+switch (estacion) {
+    case 1:
+        console.log("Primavera");
+        break;
+    case 2:
+        console.log("Verano");
+        break;
+    case 3:
+        console.log("Otoño");
+        break;
+    case 4:
+        console.log("Invierno");
+        break;
+    default:
+        console.log("Número inválido");
+}
+
+console.log("\n ----------Fin Ejercicio #6 ---------- \n");
