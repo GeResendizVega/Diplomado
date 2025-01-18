@@ -247,3 +247,30 @@ switch (tipoUsuario) {
 }
 
 console.log("\n ----------Fin Ejercicio #8 ---------- \n");
+
+console.log("----------Ejercicio #9 (Tipos de frutas )---------- \n");
+/**
+Escribe un programa que reciba una fruta (manzana, plátano, naranja) y devuelva su color.
+Si recibe otra entrada enviar mensaje "Fruta inválida"
+
+manzana = rojo o verde 
+plátano = Amarillo
+naranja = Naranja
+default = Fruta inválida
+*/
+let fruta = 'naranja';
+switch (fruta) {
+    case 'manzana':
+        console.log("la "+fruta +" es de color Rojo o verde");
+        break;
+    case 'plátano':
+        console.log("el "+fruta +" es de color Amarillo");
+        break;
+    case 'naranja':
+        console.log("la "+fruta +" es de color Naranja");
+        break;
+    default:
+        console.log("Fruta inválida");
+}
+
+console.log("\n ----------Fin Ejercicio #9 ---------- \n");
