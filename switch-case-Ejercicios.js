@@ -34,3 +34,34 @@ switch(diaSemana) {
   }
 
   console.log("\n ----------Fin Ejercicio #1 ---------- \n");
+
+
+  console.log("----------Ejercicio #2 (Calificaciones )---------- \n");
+
+let calificacion  = "A";
+
+switch(calificacion) {
+    case "A":
+      console.log("Excelente")
+      break;
+    case "B":
+        console.log("Bueno")
+      break;
+      case"C":
+        console.log("Regular")
+      break;
+      case "D":
+        console.log("Deficiente")
+      break;
+      case "F":
+        console.log("Reprobado")
+      break;
+     
+    default:
+        console.log("Calificación Invalida");
+  }
+
+  console.log("\n ----------Fin Ejercicio #2 ---------- \n");
+
+
+  
