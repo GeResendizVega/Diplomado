@@ -120,18 +120,49 @@ switch (mes) {
   let color = 'verde';
 switch (color) {
     case 'rojo':
-        console.log("El color "+color +"indica Alto");
+        console.log("El color "+color +" indica Alto");
         break;
     case 'amarillo':
-        console.log("El color "+color +"indica Precaución");
+        console.log("El color "+color +" indica Precaución");
         break;
     case 'verde':
-        console.log("El color "+color +"indica Siga");
+        console.log("El color "+color +" indica Siga");
         break;
     default:
         console.log("Color inválido");
 }
 console.log("\n ----------Fin Ejercicio #4 ---------- \n");
+
+/*
+Ejercicio 5: Tipo de Triángulos
+Escribe un programa que reciba el número de lados iguales de un triángulo (0, 2, 3) y devuelva el tipo de triángulo.
+Si recibe otra entrada enviar mensaje "Número inválido"
+ 0 = Escaleno
+ 2 = isósceles
+ 3 = Equilatero
+ default = Número Invalido
+
+*/
+
+console.log("----------Ejercicio #5 (Tipo de Triángulos )---------- \n");
+
+let numLadosI = 2;
+switch (numLadosI) {
+    case 0:
+        console.log("Escaleno");
+        break;
+    case 2:
+        console.log("Isósceles");
+        break;
+    case 3:
+        console.log("Equilátero");
+        break;
+    default:
+        console.log("Número inválido");
+}
+
+
+console.log("\n ----------Fin Ejercicio #5 ---------- \n");
 
 
   
