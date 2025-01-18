@@ -1,3 +1,10 @@
+/*EJercicio 1: Dias de la Semana 
+Escribe un programa que reciba un número del 1 al 7 y devuelva el dia de la semana correspondiente 
+Ejemplo: Recibe1, debe imprimir "Lunes"
+*/
+
+console.log("\n----------Ejercicio #1 (Dias de la semana)---------- \n");
+
 let diaSemana = 3;
 
 switch(diaSemana) {
@@ -25,3 +32,5 @@ switch(diaSemana) {
     default:
         console.log("No hay dia de la semana ")
   }
+
+  console.log("\n ----------Fin Ejercicio #1 ---------- \n");
