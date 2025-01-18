@@ -274,3 +274,32 @@ switch (fruta) {
 }
 
 console.log("\n ----------Fin Ejercicio #9 ---------- \n");
+
+console.log("----------Ejercicio #10 (Tipos de clima )---------- \n");
+/*
+Escribe un programa que reciba un tipo de clima (soleado, lluvioso, nublado) 
+y devuelva una recomendación.
+
+soleado = Usa protector solar
+lluvioso = Lleva un paraguas
+nublado = Puede que necesites una chamarra
+default = Clima inválido
+
+*/
+
+let clima = 'lluvioso';
+switch (clima) {
+    case 'soleado':
+        console.log("el clima es "+clima+" Usa protector solar");
+        break;
+    case 'lluvioso':
+        console.log("el clima es "+clima+" Lleva un paraguas");
+        break;
+    case 'nublado':
+        console.log("el clima es "+clima+" Puede que necesites una chamarra");
+        break;
+    default:
+        console.log("el clima es "+clima+" Clima inválido");
+}
+
+console.log("\n ----------Fin Ejercicio #10 ---------- \n");
