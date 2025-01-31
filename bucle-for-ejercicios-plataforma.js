@@ -60,4 +60,17 @@
     }
     console.log(textoalreves);
 
-    
+    /* 
+    EJERCICIO 6: Encontrar el numero maximo de un array  
+    Escribe un programa que encuentre el número máximo en un array.
+    */
+
+    let arrayNumeros = [3, 5, 7, 2, 8, 1];
+    let numMaximo = arrayNumeros[0];
+    for (let i = 1; i < arrayNumeros.length; i++) {
+        if (arrayNumeros[i] > numMaximo) {
+            numMaximo = arrayNumeros[i];
+        }
+    }
+    console.log("Soy el numero maximo del array "+numMaximo);
+
