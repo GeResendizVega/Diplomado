@@ -114,4 +114,15 @@
      }
     }
     console.log("en el texto "+textoconvocales +" tiene "+contVocales+" Vocales");
+
+
+      /* 
+    EJERCICIO 10: imprimir una tabla tabla del 5
+    Escribe un programa que imprima la tabla de multiplicar del numero 5
+    */
+
+    let numeroTabla = 5;
+    for (let i = 1; i <= 10; i++) {
+    console.log('5 x '+i + ' = ' +numeroTabla*i)
+    }
     
