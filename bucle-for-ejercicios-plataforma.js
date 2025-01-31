@@ -34,3 +34,30 @@
     for (let i = 0; i < array.length; i++) {
     console.log("arary en la posicion "+[i]+" es "+array[i]);
     }
+
+
+    /* 
+    EJERCICIO 4: Imprimir Numeros pares del 1 al 20
+     Escribe un programa que imprima todos los números pares del 1 al 20.
+    */
+   
+
+    for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log("Numero par"+i);
+        }
+    }
+
+    /* 
+    EJERCICIO 5: Imprimir  una cadena de texto al reves 
+    Escribe un programa que imprima una cadena de texto al revés.
+    */
+
+    let texto = "soy cadena al reves";
+    let textoalreves = "";
+    for (let i = texto.length - 1; i >= 0; i--) {
+        textoalreves += texto[i];
+    }
+    console.log(textoalreves);
+
+    
