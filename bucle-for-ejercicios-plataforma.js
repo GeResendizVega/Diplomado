@@ -99,3 +99,19 @@
         a = b;
      b = siguiente;
     }
+
+      /* 
+    EJERCICIO 9: Contar el numero de vocales en una cadena 
+    Escribe un programa que Cuente el numero de vocaales en una cadena de texto.
+    TIP: if ("aeiou".includes (texto[i]))
+    */
+
+    let textoconvocales = "texto con vocales";
+    let contVocales = 0;
+    for (let i = 0; i < textoconvocales.length; i++) {
+        if ("aeiouAEIOU".includes(textoconvocales[i])) {
+            contVocales++;
+     }
+    }
+    console.log("en el texto "+textoconvocales +" tiene "+contVocales+" Vocales");
+    
