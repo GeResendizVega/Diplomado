@@ -77,7 +77,7 @@
 
     /* 
     EJERCICIO 7: Calcular el factorial 
-    Escribe un programa que calcule el factorial de un número dado..
+    Escribe un programa que calcule el factorial de un número dado.
     */
 
     let numero = 5;
@@ -87,3 +87,15 @@
     }
     console.log("El factorial del numero "+numero+" es "+factorial);
 
+    /* 
+    EJERCICIO 8: Imprimir los primeros 10 numeros de la serie Fibonacci
+    Escribe un programa que imprima los primeros 10 números de la serie de Fibonacci.
+    */
+
+    let a = 0, b = 1, siguiente;
+    for (let i = 1; i <= 10; i++) {
+        console.log(a);
+    siguiente = a + b;
+        a = b;
+     b = siguiente;
+    }
