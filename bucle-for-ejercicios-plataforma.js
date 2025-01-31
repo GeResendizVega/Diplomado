@@ -74,3 +74,16 @@
     }
     console.log("Soy el numero maximo del array "+numMaximo);
 
+
+    /* 
+    EJERCICIO 7: Calcular el factorial 
+    Escribe un programa que calcule el factorial de un número dado..
+    */
+
+    let numero = 5;
+    let factorial = 1;
+    for (let i = 1; i <= numero; i++) {
+        factorial *= i;
+    }
+    console.log("El factorial del numero "+numero+" es "+factorial);
+
