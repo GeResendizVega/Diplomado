@@ -18,11 +18,11 @@ const peliculas = [
     { titulo: "Toy Story", genero: "Animación" },
   ];
 
-  iconDrama = "🎭";
-  iconAccion = "🔥";
-  iconanimacion= "🎨";
+  let iconDrama = "🎭"; 
+  let iconAccion = "🔥";
+  let  iconanimacion= "🎨";
   console.log(" .................EJERCICIO 1.................\n ")
-  for (let i = 1; i < peliculas.length ; i++){
+  for (let i = 0; i < peliculas.length ; i++){
     if (peliculas[i].genero == "Drama"){
         console.log(iconDrama+" "+ peliculas[i].genero+" : "+peliculas[i].titulo);
 
@@ -44,12 +44,20 @@ const peliculas = [
 // Ejercicio 2: Filtrar la pelicula por bussqueda 
 console.log("\n .................EJERCICIO 2.................\n ")
 let busqueda = "Toy Story";
-for (let i = 1; i < peliculas.length ; i++){
-//    console.log(peliculas[i].titulo +" -> " + busqueda );
+let peliculaencontrada= false ;
+
+for (let i = 0; i < peliculas.length ; i++){
     if (busqueda === peliculas[i].titulo ){
         console.log(`La pelicula ${busqueda} su genero es ${peliculas[i].genero}`);
-    }
+        peliculaencontrada = true;
+        break;
+    }    
+    console.log(i);
 }
+if (! peliculaencontrada){
+    console.log("No se encontro ls pelicula"+ busqueda);
+}
+  
 
 
 
@@ -62,9 +70,9 @@ let singenero = 0 ;
 console.log("\n .................EJERCICIO 3.................\n ")
 for (let i = 0; i < peliculas.length ; i++){
         if (peliculas[i].genero  == "Drama"){
-            generoDrama =  generoDrama + 1;
+           generoDrama++;
         }else if (peliculas[i].genero  == "Animación"){ 
-            generoAnimacion = generoAnimacion + 1;
+            generoAnimacion += 1;
         }else if (peliculas[i].genero  == "Acción"){ 
             generoAccion = generoAccion + 1 ;
         }else{
